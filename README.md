@@ -36,7 +36,7 @@ permanecendo fixa enquanto a imagem de fundo gira.
 
 - inverterImagem/
 - │
-- ├── index.html
+- ├── imagem.html
 - ├── css/
 - │ └── imagem.css
 - ├── js/
