@@ -1,0 +1,59 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* evita scroll quando gira */
+}
+
+#fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* fica atrás do conteúdo */
+  transition: transform 1s ease; /* rotação suave */
+}
+
+.container {
+  position: relative;
+  z-index: 1; /* acima do fundo */
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 30px 50px;
+  border-radius: 15px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+#hora {
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#hora {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.input-container {
+    color: #fff;
+    font-size: 1rem;
+}
+input[type="file"] {
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
